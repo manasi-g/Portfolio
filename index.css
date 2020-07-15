@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("img/bg2.png");
+    background-size: cover;}
+   
+
+
+.bg1{
+    background-image: url("blank-letter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px 800px;
+    
+}
+.bg2{
+    background-image: url("bg2.jpg");
+    color: black;
+    background-size: cover;
+}
+.lala{
+    background-image: url("grey.jpg");
+    background-size: cover;
+}
+.section {
+    height: 900px;}
+   
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0 20px;
+}
+
+#nav-list li {
+    margin: 0 15px;
+}
+
+.flex-layout{ display: flex;
+    padding: 100px;
+}
+.flex-right{ 
+    padding: 25px;
+}
+.flex-center{ 
+    padding: 0 400px;
+}
+ 
+.flex-layout .icon{
+    font-size: 30px;
+    margin-right: 10px;
+   
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-item {
+    box-shadow: 5px 5px 10px;
+    margin: 50px;
+}
+.center{
+    text-align: center;
+}
+#skills {
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skill-item {
+    padding: 5px;
+}
+
+.progress {
+    border-radius: 20px;
+    height: 10px ;
+}
+.section1 {
+    height: 500px;}
+.section2 {
+        height: 800px;}    
+p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    line-height: 60px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+h1{
+    text-indent: 2500px;
+    line-height: 60px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.icon{
+    font-size: 30px;
+}
+
+a {
+    border-bottom: 1px solid #818638;
+    color: #fcf819;
+    padding-bottom: .25em;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    color: hotpink;
+  }
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: peru;
+  }
+  
+  
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  #color{
+      color:blueviolet
+  }
